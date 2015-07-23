@@ -1,0 +1,13 @@
+# navigation
+alias g="cd ~/GitHub"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# npm
+alias npmi="sudo npm install"
+
+# Git
+alias gs="git status"
+alias gl="git log --oneline"
