@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+	"use strict";
+
+	angular
+		.module("${1:moduleName}")
+		.controller("${2:controllerName}", ${2:controllerName});
+
+	/* @ngInject */
+	function ${2:controllerName}() {
+		/*jshint validthis: true */
+		var vm = this;
+
+		// Assign all bindable models:
+		$0
+
+		// activate();
+
+		//////////
+
+		// function activate() {
+		// }
+	}
+})();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ctrl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>AngularJS Controller</description>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+	"use strict";
+
+	angular
+		.module("${1:moduleName}")
+		.directive("${2:directiveName}", ${3:directiveFunction});
+
+	function ${3:directiveFunction}() {
+		return {
+			restrict: "${4:AE}",
+			replace: true,
+			templateUrl: "views/${0:viewName}.directive.html"
+		};
+	}
+})();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dir</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

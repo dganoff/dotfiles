@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+return \$http.${1:VERB?}(envConfig.api.baseUrl + '${2:URI}'$0)
+  .then(successCB, errorCB);
+
+function successCB (response) {
+  return response.data;
+}
+
+function errorCB (error) {
+  return \$q.reject(error.data);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>api</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>AngularJS API call</description>
+</snippet>

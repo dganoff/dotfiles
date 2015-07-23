@@ -1,0 +1,32 @@
+{
+  "Seti_ClosedFolder_dots": false,
+  "Seti_ClosedFolder_remove": false,
+  "Seti_ClosedFolder_same": false,
+  "Seti_SB_big": false,
+  "Seti_SB_bright": false,
+  "Seti_no_bar_undertabs": true,
+  "Seti_tabs_med": true,
+  "Seti_tabs_small": true,
+  "bold_folder_labels": false,
+  "carte_style": "phase",
+  "color_scheme": "Packages/User/SublimeLinter/base16-eighties.dark (SL).tmTheme",
+  "default_line_ending": "unix",
+  "font_face": "Source Code Pro",
+  "font_size": 14,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
+  "minimap_scroll_to_clicked_text": false,
+  "overlay_scroll_bars": true,
+  "scroll_past_end": true,
+  "show_tab_close_buttons": true,
+  "soda_folder_icons": true,
+  "tab_size": 2,
+  "theme": "Seti_orig.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}

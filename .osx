@@ -12,3 +12,17 @@ defaults write com.apple.screencapture type -string “png”
 
 # Display full POSIX path as Finder window title
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+
+###############################################################################
+# Sublime Text                                                                #
+###############################################################################
+
+# Install Sublime Text settings & Snippets
+cp -r init/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
+cp -r init/sublime/angular-api-call.sublime-snippet ~/Library/Application\ Support/Sublime\ Text*/Packages/User/angular-api-call.sublime-snippet 2> /dev/null
+cp -r init/sublime/angular-controller.sublime-snippet ~/Library/Application\ Support/Sublime\ Text*/Packages/User/angular-controller.sublime-snippet 2> /dev/null
+cp -r init/sublime/angular-directive.sublime-snippet ~/Library/Application\ Support/Sublime\ Text*/Packages/User/angular-directive.sublime-snippet 2> /dev/null
+cp -r init/sublime/angular-service.sublime-snippet ~/Library/Application\ Support/Sublime\ Text*/Packages/User/angular-service.sublime-snippet 2> /dev/null
+cp -r init/sublime/javascript-console.sublime-snippet ~/Library/Application\ Support/Sublime\ Text*/Packages/User/javascript-console.sublime-snippet 2> /dev/null
+cp -r init/sublime/javascript-getter.sublime-snippet ~/Library/Application\ Support/Sublime\ Text*/Packages/User/javascript-getter.sublime-snippet 2> /dev/null
+cp -r init/sublime/protractor-page-object.sublime-snippet ~/Library/Application\ Support/Sublime\ Text*/Packages/User/protractor-page-object.sublime-snippet 2> /dev/null

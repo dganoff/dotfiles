@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+	"use strict";
+
+	angular
+		.module("${1:moduleName}")
+		.factory("${2:serviceName}", ${2:serviceName});
+
+	/* @ngInject */
+	function ${2:serviceName}(\$q, \$http, envConfig) {
+		var service = {
+			$0
+		};
+
+		return service;
+
+		//////////
+
+
+	}
+})();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>svc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
