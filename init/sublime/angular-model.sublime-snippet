@@ -1,0 +1,44 @@
+<snippet>
+  <content><![CDATA[
+(function(){
+  "use strict";
+
+  angular.module("app").factory("${1:ModelName}Model", ${1:ModelName}Def);
+
+  /* @ngInject */
+  function ${1:ModelName}Def(ModelHelpers){
+
+    /* Constructor */
+    function ${1:ModelName}(args){
+      /**
+       * @class ${1:ModelName}
+       * @param {object} args Default property/values
+       */
+      ModelHelpers.assignProps.call(this, this.attributeNames, args);
+    }
+
+    ${1:ModelName}.deserialize = deserialize;
+
+    Object.defineProperty(${1:ModelName}.prototype, "attributeNames", {
+      get: function(){
+        return [${0}];
+      }
+    });
+
+    //////////
+
+    function deserialize(params){
+      return new ${1:ModelName}(
+        _.pick(params, ${1:ModelName}.prototype.attributeNames)
+      );
+    }
+
+    return ${1:ModelName};
+  }
+})();
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>model</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

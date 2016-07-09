@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+	"use strict";
+
+	angular.module("${1:moduleName}").component("${2:componentName}", {
+		templateUrl: "views/${3:templateName}.html",
+		controller: ${4:ControllerName}Ctrl,
+		controllerAs: "vm",
+		bindings: { // sets all properties to the controller's `this` context
+		},
+	});
+
+	/* @ngInject */
+	function ${4:ControllerName}Ctrl() {
+		var vm = this;
+
+		// Assign all bindable models:
+		$0
+
+		//////////
+
+		// this.\$onInit = function () {};
+	}
+})();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>comp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>AngularJS Component</description>
+</snippet>

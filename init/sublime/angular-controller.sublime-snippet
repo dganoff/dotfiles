@@ -3,24 +3,16 @@
 (function() {
 	"use strict";
 
-	angular
-		.module("${1:moduleName}")
-		.controller("${2:controllerName}", ${2:controllerName});
+	angular.module("${1:moduleName}").controller("${2:controllerName}", ${2:controllerName});
 
 	/* @ngInject */
 	function ${2:controllerName}() {
-		/*jshint validthis: true */
 		var vm = this;
 
 		// Assign all bindable models:
 		$0
 
-		// activate();
-
 		//////////
-
-		// function activate() {
-		// }
 	}
 })();
 ]]></content>

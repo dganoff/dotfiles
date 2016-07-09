@@ -15,10 +15,6 @@ shopt -s nocaseglob
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
 
-#Brendan Younger's AWD Stuff:
-export AWS_ACCESS_KEY_ID=AKIAIKFJRFMLYMB535IQ
-export AWS_SECRET_KEY=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
-
 
 ##Android Dev:
 #PATH variable edits:

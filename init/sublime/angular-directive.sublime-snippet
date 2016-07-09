@@ -3,15 +3,13 @@
 (function() {
 	"use strict";
 
-	angular
-		.module("${1:moduleName}")
-		.directive("${2:directiveName}", ${3:directiveFunction});
+	angular.module("${1:moduleName}").directive("${2:directiveName}", ${3:directiveFunction});
 
 	function ${3:directiveFunction}() {
 		return {
 			restrict: "${4:AE}",
 			replace: true,
-			templateUrl: "views/${0:viewName}.directive.html"
+			templateUrl: "views/${0:templateName}.directive.html"
 		};
 	}
 })();
