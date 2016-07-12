@@ -11,3 +11,9 @@ alias npmi="sudo npm install"
 alias g="git"
 alias gs="git status"
 alias gl="git log --oneline"
+
+# Dev
+alias vpn="/opt/cisco/anyconnect/bin/vpn"
+alias vmxc="printf 'dganoff\ne268uCDjoo\ny' | vpn -s connect vpn.verimatrix.com/intridea"
+alias vmxd="vpn disconnect"
+alias edit="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
