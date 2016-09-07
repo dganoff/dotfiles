@@ -7,6 +7,7 @@
   "Seti_blue_label": true,
   "Seti_no_bar_undertabs": true,
   "Seti_tabs_med": true,
+  "Seti_top_heading_small": true,
   "auto_complete_selector":
   [
     "text",
@@ -15,12 +16,12 @@
   "bold_folder_labels": false,
   "caret_style": "wide",
   "carte_style": "phase",
-  "color_scheme": "Packages/User/SublimeLinter/Base16 Eighties Dark - custom (SL).tmTheme",
+  "color_scheme": "Packages/User/SublimeLinter/Base16 Eighties Dark-teal (SL).tmTheme",
   "default_line_ending": "unix",
   "enable_tab_scrolling": true,
   "fade_fold_buttons": false,
   "font_face": "Source Code Pro",
-  "font_size": 14,
+  "font_size": 16,
   "highlight_line": true,
   "ignored_packages":
   [
