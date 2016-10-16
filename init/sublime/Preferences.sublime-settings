@@ -7,7 +7,6 @@
   "Seti_blue_label": true,
   "Seti_no_bar_undertabs": true,
   "Seti_tabs_med": true,
-  "Seti_top_heading_small": true,
   "auto_complete_selector":
   [
     "text",
@@ -25,6 +24,7 @@
   "highlight_line": true,
   "ignored_packages":
   [
+    "Package Control",
     "Vintage"
   ],
   "indent_guide_options":
@@ -34,13 +34,15 @@
   ],
   "line_padding_bottom": 1,
   "line_padding_top": 1,
+  "material_theme_compact_sidebar": true,
+  "material_theme_small_tab": true,
   "minimap_scroll_to_clicked_text": false,
   "overlay_scroll_bars": true,
   "scroll_past_end": true,
   "show_tab_close_buttons": true,
   "soda_folder_icons": true,
   "tab_size": 2,
-  "theme": "Seti_orig.sublime-theme",
+  "theme": "Material-Theme.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
   "typescript_auto_format": false,
