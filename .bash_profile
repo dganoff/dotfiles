@@ -23,3 +23,6 @@ export LANG="en_US"
 # export ANDROID_HOME=~/android-sdk-macosx
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# Starting location:
+cd GitHub
