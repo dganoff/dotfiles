@@ -1,0 +1,5 @@
+[
+  {
+    "keys": ["command+;"], "command": "run_macro_file", "args": {"file": "Packages/User/semicolon-line-ending.sublime-macro"}
+  }
+]
