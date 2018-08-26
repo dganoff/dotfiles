@@ -1,0 +1,98 @@
+{
+  "macros": {
+    "addSemicolon": [
+      "cursorEnd",
+      {
+        "command": "type",
+        "args": {
+          "text": ";"
+        }
+      }
+    ]
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Night Owl",
+  "workbench.colorCustomizations": {
+    // Boxy Ocean customizations:
+    // "editorWhitespace.foreground": "#1b2b34",
+    "editorLineNumber.foreground": "#3E5B6B",
+    "editorCursor.foreground": "#64d6b4",
+    "input.background": "#264252",
+    "input.foreground": "#8EC0DB",
+    // "editorGroupHeader.tabsBackground": "#1b2b34",
+    "tab.border": "#1b2b34",
+    // "activityBar.background": "#17242c",
+    // "editorIndentGuide.activeBackground": "#44685c"
+
+    // Night Owl customizations:
+    "editorWhitespace.foreground": "#011627",
+    "activityBarBadge.background": "#0496bb",
+    "selection.background": "#3492df86",
+    "activityBar.background": "#000C1D",
+    "activityBar.border": "#102a44",
+    "sideBar.background": "#001122",
+    "sideBar.border": "#102a44",
+  },
+  "window.zoomLevel": 0,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.5,
+  "editor.fontWeight": "500",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "files.trimTrailingWhitespace": true,
+  "editor.wordWrap": "on",
+  "editor.renderLineHighlight": "all",
+  "editor.minimap.enabled": true,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "workbench.activityBar.visible": true,
+  "diffEditor.renderSideBySide": false,
+  "git.confirmSync": false,
+  "editor.snippetSuggestions": "top",
+  "editor.roundedSelection": true,
+  "editor.selectionHighlight": true,
+  "editor.dragAndDrop": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.minimap.renderCharacters": false,
+  "workbench.sideBar.location": "left",
+  "workbench.statusBar.visible": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "material-icon-theme.showUpdateMessage": false,
+  "extensions.autoUpdate": true,
+  "editor.autoIndent": true,
+  "emmet.triggerExpansionOnTab": true,
+  "vsicons.projectDetection.autoReload": true,
+  "javascript.implicitProjectConfig.checkJs": false,
+  "editor.codeLens": false,
+  "javascript.referencesCodeLens.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "editor.formatOnPaste": true,
+  "workbench.editor.tabSizing": "shrink",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.newWindowDimensions": "inherit",
+  "window.restoreWindows": "all",
+  "window.title": "${activeEditorShort} 💥 (${rootName})",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.blame.heatmap.enabled": false,
+  "gitlens.blame.highlight.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.mode.statusBar.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.enabled": false,
+  "editor.foldingStrategy": "indentation",
+  "breadcrumbs.enabled": true,
+}
