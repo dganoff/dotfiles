@@ -11,7 +11,7 @@
     ]
   },
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Night Owl",
+  "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.colorCustomizations": {
     // Boxy Ocean customizations:
     // "editorWhitespace.foreground": "#1b2b34",
@@ -34,28 +34,24 @@
     "sideBar.border": "#102a44",
   },
   "window.zoomLevel": 0,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 24,
+  "editor.lineHeight": 26,
   "editor.letterSpacing": 0.5,
-  "editor.fontWeight": "500",
   "editor.tabSize": 2,
-  "editor.renderWhitespace": "boundary",
+  "editor.renderWhitespace": "selection",
   "files.trimTrailingWhitespace": true,
   "editor.wordWrap": "on",
   "editor.renderLineHighlight": "all",
   "editor.minimap.enabled": true,
-  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "workbench.activityBar.visible": true,
   "diffEditor.renderSideBySide": false,
   "git.confirmSync": false,
   "editor.snippetSuggestions": "top",
-  "editor.roundedSelection": true,
+  "editor.roundedSelection": false,
   "editor.selectionHighlight": true,
   "editor.dragAndDrop": true,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.minimap.renderCharacters": false,
   "workbench.sideBar.location": "left",
-  "workbench.statusBar.visible": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "material-icon-theme.showUpdateMessage": false,
   "extensions.autoUpdate": true,
@@ -66,7 +62,6 @@
   "editor.codeLens": false,
   "javascript.referencesCodeLens.enabled": false,
   "explorer.openEditors.visible": 0,
-  "editor.formatOnPaste": true,
   "workbench.editor.tabSizing": "shrink",
   "diffEditor.ignoreTrimWhitespace": false,
   "files.exclude": {
@@ -85,14 +80,38 @@
     "suppressShowKeyBindingsNotice": true
   },
   "gitlens.historyExplorer.enabled": false,
-  "gitlens.codeLens.enabled": false,
   "gitlens.blame.heatmap.enabled": false,
   "gitlens.blame.highlight.enabled": false,
-  "gitlens.hovers.enabled": false,
   "gitlens.statusBar.enabled": false,
   "gitlens.mode.statusBar.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
-  "gitlens.currentLine.enabled": false,
   "editor.foldingStrategy": "indentation",
-  "breadcrumbs.enabled": true,
+  "editor.formatOnSaveTimeout": 500,
+  "explorer.confirmDelete": false,
+  "search.exclude": {
+    "**/.npm-packages-offline-cache": true,
+    "**/.yarn": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontSize": 15,
+  "gitlens.blame.avatars": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.recentChanges.highlight.locations": [
+    "line",
+    "overview",
+    "gutter"
+  ],
+  "workbench.fontAliasing": "auto",
+  "gitlens.codeLens.enabled": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.formatOnSave": true,
 }
