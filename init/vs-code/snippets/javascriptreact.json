@@ -46,5 +46,28 @@
 			"",
 			"export default $1;",
 		]
+	},
+	"Styled React Function Component": {
+		"prefix": "srfc",
+		"body": [
+			"import React from 'react';",
+			"import PropTypes from 'prop-types';",
+			"import styled from 'styled-components';",
+			"import designTokens from '@telnyx/design-core/lib/js/design-tokens';",
+			"import { fromTheme } from '@telnyx/ui-react/src/v2/utils/theme';",
+			"import { getTypeScaleStyles } from '@telnyx/ui-react/src/v2/components/Text';",
+			"",
+			"const { color: THEME_COLORS } = designTokens;",
+			"",
+			"const $1 = ($2) => (",
+			"  <div>",
+			"    $0",
+			"  </div>",
+			");",
+			"",
+			"$1.propTypes = {};",
+			"",
+			"export default $1;",
+		]
 	}
 }
