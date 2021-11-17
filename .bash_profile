@@ -26,3 +26,5 @@ export LANG="en_US"
 
 # Starting location:
 cd GitHub
+
+source ~/.bashrc

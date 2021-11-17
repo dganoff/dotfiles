@@ -5,7 +5,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 # npm
-alias npmi="sudo npm install"
+alias npmi="npm install"
 
 # Git
 alias g="git"
